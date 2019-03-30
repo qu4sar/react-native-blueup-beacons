@@ -11,8 +11,8 @@
     RCT_EXPORT_METHOD(start:(RCTResponseSenderBlock)callback){
         @try{
             self.manager = [[BeaconManager alloc]init];
-            manager.initSdk();
-            manager.startScan()
+            [self.manager initSdk]
+            [self.manager startScan]
             callback(@[[NSNull null], "test"]);
         }
         @catch(NSException *exception){

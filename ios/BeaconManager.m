@@ -10,7 +10,7 @@
 
 @implementation BeaconManager
 
-    -(void)initSdk:(){
+    -(void)initSdk{
         self.central = [[BLUCentralManager alloc] initWithDelegate:self];
     }
         
