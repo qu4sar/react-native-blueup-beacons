@@ -5,7 +5,10 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
+#import "BeaconManager.h"
+
 @interface RNBlueBeacon : NSObject <RCTBridgeModule>
+    @property (nonatomic) BeaconManager *manager;
 
 @end
   

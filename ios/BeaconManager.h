@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
     @property (nonatomic) BLUCentralManager *central;
 
     /*** Initialization **/
-    -(void)initSdk:(nullable id<BLUCentralManagerDelegate>)delegate;
+    -(void)initSdk:();
     
     /** Scanner management **/
     -(void) startSearch; // start blueup beacon search
