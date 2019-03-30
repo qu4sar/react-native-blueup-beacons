@@ -1,0 +1,6 @@
+framework module BlueUpSDK {
+  umbrella header "BlueUpSDK.h"
+
+  export *
+  module * { export * }
+}
